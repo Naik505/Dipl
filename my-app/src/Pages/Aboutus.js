@@ -7,7 +7,7 @@ class Aboutus extends Component {
     render() {
         return (
             <Container>
-                <Tab.Container id="ledt-tabs-example" defaultActivaKey="first">
+                <Tab.Container id="ledt-tabs-example" defaultActiveKey="first">
                     <Row>
                         <Col sm={3}>
                             <Nav variant="pills" className="flex-column mt-2">

@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import {Container, Nav, Navbar, NavbarBrand, NavLink} from "react-bootstrap";
+import {Container, Nav, Navbar, NavbarBrand, NavLink, Form, FormControl, Button } from "react-bootstrap";
 import logo from './logo192.png'
 import NavbarToggle from "react-bootstrap/NavbarToggle";
 import NavbarCollapse from "react-bootstrap/NavbarCollapse";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link,  } from "react-router-dom";
 
 
 import Home from '../Pages/Home';
@@ -30,12 +30,10 @@ class Header extends Component {
                         <NavbarToggle aria-controls="responsive-navbar-nav" />
                         <NavbarCollapse id="responsive-navbar-nav" >
                             <Nav className="mr-auto">
-
                                 <NavLink href="/">Главная</NavLink>
                                 <NavLink href="/geo">Геоданные</NavLink>
                                 <NavLink href="/contacts">Контакты</NavLink>
                                 <NavLink href="/aboutus">О нас</NavLink>
-
                             </Nav>
                         </NavbarCollapse>
 
