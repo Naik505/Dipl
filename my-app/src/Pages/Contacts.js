@@ -4,23 +4,23 @@ import {Form, Button, Container } from "react-bootstrap"
 class Contacts extends Component {
     render() {
         return (
-            <Container>
-                <h1>Контакты</h1>
+            <Container style = {{width: '500px'}}>
+                <h1 className="text-center">Контакты</h1>
                 <Form>
 
                     <Form.Group controlId="formBasicEmail">
-                        <Form.Lable>Email</Form.Lable>
+                        <Form.Label>Email</Form.Label>
                         <Form.Control type="email" placeholser="email"></Form.Control>
                     </Form.Group>
 
 
-                    <Form.Group controlId="formBasicPassword">
-                        <Form.Lable>Example textariea</Form.Lable>
+                    <Form.Group controlId="FormBasicPassword">
+                        <Form.Label>Введите текст ниже</Form.Label>
                         <Form.Control as="textarea" rows="3"></Form.Control>
                     </Form.Group>
 
 
-                    <Form.Group controlId="formBasicChexBox">
+                    <Form.Group controlId="formBasicCheckBox">
                         <Form.Check type="CheckBox" lable="Проверить"> </Form.Check>
                     </Form.Group>
 
